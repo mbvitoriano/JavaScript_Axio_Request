@@ -14,7 +14,7 @@ async function request(userUrl) {
     const response = await axios.get(userUrl);
     return response;
   } catch (error) {
-    console.error(error);
+    alert("Usuário não encontrado!");
   }
 }
 var userData;
